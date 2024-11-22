@@ -1,0 +1,54 @@
+footer{
+     display: block;
+     justify-content:space-between;
+     align-items: center; 
+     height: 15vh;
+        
+   }
+
+   .sectionOneFooter{
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    background-color: #005695;
+    height: 10vh;
+   
+   }
+
+   .navFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        gap: 20px;
+        padding: 10px;
+        margin-right: 4vw;
+       
+    }
+
+  .paragrfFooter{
+      color: #fff;
+      font-family: "Inter", serif;
+      font-weight: 500;
+      font-size: 18px;  
+      margin-left: 4vw;
+    }
+
+  .sectionTwoFooter{
+    background-color: #232020; 
+    height: 5vh;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+   
+     p{
+      font-family: "Inter", serif;
+      font-size: 12px;  
+      color: #fff;
+     
+    }
+  
+   
+   }   
+   
+
+

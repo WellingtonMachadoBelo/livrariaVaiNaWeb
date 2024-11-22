@@ -1,0 +1,91 @@
+.mainQueroDoar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 69vh;
+}  
+
+.paragrafMain{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 18px;  
+    margin-bottom: 1.5vh;
+    color: #2e2e2e;
+   
+}
+
+.sectionMainQueroDoar{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    height: 58vh;
+    border: 2px solid #005695;
+    text-align: center;
+    border-radius: 15px;
+   
+}
+
+.divOneForm{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6vh;
+
+    img{
+      width: 2rem;
+      height: 2rem;  
+    }
+
+    P{
+      color: #005695; 
+      font-family: "Inter", serif;
+      font-weight: 400;
+      font-size: 18px;  
+    }
+}
+
+.divForm{
+   margin-bottom: 3vh;
+
+   input::placeholder {
+    color: #a9a9a9;
+    font-family: "Inter", sans-serif;
+
+}
+}
+
+form{
+   margin-top: 3vh;
+}
+
+.inputForm{
+    width: 18vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: 2px solid #005695;
+    padding: 10px;
+    outline: none;
+    font-size: 14px;
+  
+}
+
+.btnForm{
+    width: 10vw;
+    height: 6vh;
+    background: #005695;
+    border-radius: 8px;
+    border: none;
+
+    p{
+     color: #fff;
+     font-family: "Inter", serif;
+     font-weight: 400;
+     font-size: 15px;  
+
+    }
+  
+}
+

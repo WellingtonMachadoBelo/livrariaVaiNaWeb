@@ -1,0 +1,48 @@
+.mainDoados{
+    flex-direction: column;
+    display: flex;
+    height: 69vh;
+ }
+   .paragrafOneMain{
+      height: 5vh; 
+      justify-content: center;
+      display: flex;
+      align-items: center; 
+      font-family: "Inter", serif;
+      font-weight: 700;
+      font-size: 20px;  
+      margin-top: 1vh;
+         
+    }
+
+.sectionMainDoados{
+    padding: 6px 40px 0px;
+    display: flex;
+    gap: 2.5vw;
+  
+   
+  
+}
+
+.divLivrosDoados{
+    width: 15vw;  
+    height: 35vh;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #005695;
+    margin-bottom: 2vh;
+
+    img{
+      margin-top: 1vh;  
+    }
+   
+
+    p{
+     font-family: "Inter", serif;
+     font-weight: 600;
+     font-size: 15px;  
+     margin-top: 1vh;  
+   
+    }
+}
