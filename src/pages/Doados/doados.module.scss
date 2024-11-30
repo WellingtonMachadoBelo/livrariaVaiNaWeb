@@ -1,40 +1,58 @@
+
 .mainDoados{
-    flex-direction: column;
-    display: flex;
-    height: 69vh;
+   height: 80vh;
+   padding: 10px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color:#D9D9D9; 
+
+   
+
  }
-   .paragrafOneMain{
-      height: 5vh; 
+    h2{
+      color: #2e2e2e;
       justify-content: center;
       display: flex;
       align-items: center; 
       font-family: "Inter", serif;
       font-weight: 700;
-      font-size: 20px;  
-      margin-top: 1vh;
+      font-size: 28px;  
+      margin-bottom: 3vh;
+    
          
     }
 
 .sectionMainDoados{
-    padding: 6px 40px 0px;
-    display: flex;
-    gap: 2.5vw;
-  
    
-  
-}
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+    
+ }
 
-.divLivrosDoados{
+
+ .articleDoados{
     width: 15vw;  
-    height: 35vh;
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
+    height: 38vh;
+    border-radius: 15px;
+    padding: 15px;
     border: 2px solid #005695;
-    margin-bottom: 2vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
 
+  
     img{
-      margin-top: 1vh;  
+      margin-top: 2vh;  
+      margin-bottom: 2vh;
+    }
+
+    h3{
+     font-family: "Inter", serif;
+     font-weight: 800; 
+     margin-bottom: 2.5vh;
+     font-size: 17px;
     }
    
 
@@ -42,7 +60,74 @@
      font-family: "Inter", serif;
      font-weight: 600;
      font-size: 15px;  
-     margin-top: 1vh;  
+     margin-bottom: 1vh;   
    
     }
+}
+
+@media (max-width: 1200px){
+  .articleDoados{
+    width: 20vw;  
+    height: 43vh;
+ }
+}
+
+
+@media (max-width: 860px){
+ 
+   h2{
+    font-size: 26px;  
+   }
+
+  .articleDoados{
+    width: 26vw;  
+    height: 45vh;
+   
+  }
+}
+
+@media (max-width: 700px){
+
+  .mainDoados{
+    height: 110vh;
+  }
+
+  .sectionMainDoados{
+    flex-direction: column;
+  }
+
+  h2{
+    font-size: 24px;  
+   }
+
+   .articleDoados{
+    width: 36vw;  
+    height: 45vh;
+ 
+  }
+}
+
+@media (max-width: 460px){
+  .articleDoados{
+    width: 50vw;  
+    height: 44vh;
+
+  }
+
+  .mainDoados h2{
+    font-size: 22px;  
+  }
+ 
+
+}
+
+@media (max-width: 330px){
+  .articleDoados{
+    width: 60vw;  
+    height: 46vh;
+  }
+
+  .mainDoados h2{
+    font-size: 20px;  
+  }
 }
