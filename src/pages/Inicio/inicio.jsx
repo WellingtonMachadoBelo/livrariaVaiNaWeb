@@ -47,10 +47,7 @@ function Inicio() {
               src={equality}
               alt="um icone de uma balança, simbolizando que todos são iguais "
             />
-            <p>
-              Garante que todos, independentemente de sua condição, tenham
-              oportunidades de aprendizado.
-            </p>
+            <p>Garante que todo tenham oportunidades de aprendizado.</p>
           </article>
         </section>
       </section>
