@@ -189,13 +189,13 @@
 
   .sectionThreeMain{
 
-    img{
-      width: 2vw;
-      height: 12vh;
-    }
-  
-     article{
-      height: 36vh;
+    article{
+      height: 37vh;
+
+      img{
+        width: 16.5vw;   
+        height: 16.5vh;   
+      }
        
      p{
       font-size: 18px; 
@@ -204,7 +204,7 @@
  }
 }
 
-@media (max-width: 345px){
+@media (max-width: 350px){
   .sectionOneMain  h2{
     font-size: 22px;
   }
@@ -218,7 +218,7 @@
   }
 }
   .sectionThreeMain article{
-    height: 42vh;
+    height: 42;
 
     p{
       font-size: 16px; 
