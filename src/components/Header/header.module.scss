@@ -105,6 +105,7 @@
   height: 5.4vh;
   width: 21vw;
   padding: 10px;
+ 
 
   input{
     font-size: 14px;
@@ -160,7 +161,6 @@
 
  .sectionInput{
   width: 40%;
-  height: 6vh;
   padding: 2px;
   
   button{
@@ -170,7 +170,7 @@
  
 }
 
-@media (max-width:420px){
+@media (max-width:460px){
 
   .boxHeader{
     height: 26vh;
@@ -185,16 +185,16 @@
   }
 
   .sectionInput{
-    width: 55%;
+    width: 60%;
        
     input{
-      font-size: 16px;
+      font-size: 15px;
       
    }
 
     button{
-     width: 4.7vw;
-     margin-right: 0.5vw;
+     width: 4vw;
+     margin-right: 1vw;
     }
   }
 }
