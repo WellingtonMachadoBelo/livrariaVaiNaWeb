@@ -1,0 +1,69 @@
+.boxHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 100px;
+  background: linear-gradient(90deg, #13203b, #20479b);
+}
+
+.boxSectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2vw;
+}
+.boxSectionHeader h1 {
+  margin-left: 1vw;
+  color: white;
+  font-size: 30px;
+}
+
+.boxNav {
+  width: 40vw;
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.divHeader {
+  margin-right: 7vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 18vw;
+}
+.divHeader input {
+  width: 100%;
+  padding: 10px 20px 10px 10px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  color: #DCDCDC;
+  font-size: 16px;
+  background-color: #20479b;
+}
+.divHeader img {
+  position: absolute;
+  right: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+input::-moz-placeholder {
+  color: #DCDCDC;
+  opacity: 2;
+}
+
+input::placeholder {
+  color: #DCDCDC;
+  opacity: 2;
+}/*# sourceMappingURL=header.module.css.map */

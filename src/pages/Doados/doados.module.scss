@@ -1,0 +1,179 @@
+
+.mainDoados{
+   height: 80vh;
+   padding: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background-color:#D9D9D9; 
+
+ 
+    h2{
+      color: #2e2e2e;
+      justify-content: center;
+      display: flex;
+      align-items: center; 
+      font-family: "Inter", serif;
+      font-weight: 700;
+      font-size: 28px;  
+      margin-bottom: 3vh;
+    
+         
+    }
+  }
+
+.sectionMainDoados{
+   
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+  
+    
+ }
+
+
+ .articleDoados{
+    width: 14vw;  
+    height: 37vh;
+    border-radius: 15px;
+    border: 2px solid #005695;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    padding: 8px;
+   
+
+  
+    img{
+      margin-top: 2vh;  
+      margin-bottom: 2vh;
+    }
+
+    h3{
+     font-family: "Inter", serif;
+     font-weight: 800; 
+     font-size: 17px;
+    }
+   
+
+    p{
+     font-family: "Inter", serif;
+     font-weight: 600;
+     font-size: 15px;  
+    
+   
+    }
+}
+
+@media (max-width: 1200px){
+  .articleDoados{
+    width: 20vw;    
+    height: 43vh;   
+ }
+
+ .articleDoados{
+   h3{
+    font-size: 20px;
+   }
+   p{
+    font-size: 18px;  
+   }
+ }
+
+}
+
+
+@media (max-width: 890px){
+  .mainDoados{
+    height: 60vh;
+  }
+  
+  .articleDoados{
+    width: 28vw;  
+    height: 40vh;
+   
+  }
+
+}
+
+@media (max-width: 700px){
+
+  
+
+  .mainDoados{
+    height: 120vh;
+
+    h2{
+      font-size: 32px;
+    }
+  }
+
+  .sectionMainDoados{
+    flex-direction: column;
+  }
+
+   .articleDoados{
+    width: 38vw;  
+    height: 45vh;
+
+    h3{
+      font-size: 22px;
+     }
+     p{
+      font-size: 20px;  
+     }
+
+  }
+ }
+
+@media (max-width: 500px){
+  .mainDoados h2{
+    font-size: 30px;  
+  }
+  .articleDoados{
+    width: 48vw;  
+    height: 45vh;
+ 
+  }
+}
+
+@media (max-width: 460px){
+  .mainDoados{
+    height: 110vh;
+  }
+  .articleDoados{
+    width: 56vw;  
+    height: 44vh;
+
+     
+    h3{
+     font-size: 22px;
+    }
+
+    p{
+      font-size: 18px;
+    }
+    }
+
+    .sectionMainDoados{
+      gap: 4vh
+    }
+  }
+
+ 
+@media (max-width: 340px){
+  .articleDoados{
+    width: 60vw;  
+    height: 46vh;
+  }
+
+  .mainDoados{
+    height: 110vh;
+
+    h2{
+      font-size: 24px;  
+    }
+ }
+  
+ 
+}
