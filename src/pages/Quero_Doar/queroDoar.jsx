@@ -101,13 +101,12 @@ function QueroDoar() {
               value={imagem}
             />
           </div>
-          <button
+          <input
             className={styles.btnForm}
             type="submit"
+            value="Doar"
             onClick={enviarDados}
-          >
-            Doar
-          </button>
+          />
         </form>
       </section>
     </main>
