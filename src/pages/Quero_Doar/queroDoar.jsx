@@ -104,10 +104,9 @@ function QueroDoar() {
           <input
             className={styles.btnForm}
             type="submit"
+            value="Doar"
             onClick={enviarDados}
-          >
-            Doar
-          </>
+          />
         </form>
       </section>
     </main>
