@@ -1,13 +1,13 @@
 
 .mainDoados{
-   height: 80vh;
+   min-height: 70vh;
    padding: 15px;
    padding-left: 20px;
    padding-right: 20px;
-   background-color:#D9D9D9; 
-
- 
-    h2{
+   background-color:#D9D9D9;  
+  
+       
+   h2{
       color: #2e2e2e;
       justify-content: center;
       display: flex;
@@ -25,13 +25,18 @@
    
     display: flex;
     align-items: center;
-    gap: 3vw;
-  
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%; 
+    gap: 1rem;
+   
+       
     
  }
 
 
  .articleDoados{
+  
     width: 14vw;  
     height: 37vh;
     border-radius: 15px;
@@ -41,12 +46,14 @@
     align-items: center; 
     flex-direction: column;
     padding: 8px;
+    text-align: center;
+    
+    
    
 
   
     img{
-      margin-top: 2vh;  
-      margin-bottom: 2vh;
+     width: 50%;
     }
 
     h3{
@@ -85,7 +92,7 @@
 
 @media (max-width: 890px){
   .mainDoados{
-    height: 60vh;
+   min-height: auto;
   }
   
   .articleDoados{
@@ -97,12 +104,7 @@
 }
 
 @media (max-width: 700px){
-
-  
-
   .mainDoados{
-    height: 120vh;
-
     h2{
       font-size: 32px;
     }
@@ -138,10 +140,7 @@
 }
 
 @media (max-width: 460px){
-  .mainDoados{
-    height: 110vh;
-  }
-  .articleDoados{
+   .articleDoados{
     width: 56vw;  
     height: 44vh;
 
@@ -168,8 +167,6 @@
   }
 
   .mainDoados{
-    height: 110vh;
-
     h2{
       font-size: 24px;  
     }

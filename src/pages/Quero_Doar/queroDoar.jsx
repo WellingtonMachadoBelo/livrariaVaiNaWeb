@@ -7,7 +7,7 @@ function QueroDoar() {
   const [titulo, setTitulo] = useState("");
   const [categoria, setCategoria] = useState("");
   const [autor, setAutor] = useState("");
-  const [imagem, setImagem] = useState("");
+  const [imagem_url, setImagem] = useState("");
 
   const capturaTitulo = (e) => {
     setTitulo(e.target.value);
@@ -32,7 +32,7 @@ function QueroDoar() {
       titulo,
       categoria,
       autor,
-      imagem,
+      imagem_url,
     };
 
     await axios.post(urlApi, dadosEnviar);
@@ -60,8 +60,6 @@ function QueroDoar() {
           <div className={styles.divForm}>
             <input
               type="text"
-              id="nome"
-              name="nome"
               placeholder="Título"
               className={styles.inputForm}
               onChange={capturaTitulo}
@@ -71,8 +69,6 @@ function QueroDoar() {
           <div className={styles.divForm}>
             <input
               type="text"
-              id="nome"
-              name="nome"
               placeholder="Categoria"
               className={styles.inputForm}
               onChange={capturaCategoria}
@@ -82,8 +78,6 @@ function QueroDoar() {
           <div className={styles.divForm}>
             <input
               type="text"
-              id="nome"
-              name="nome"
               placeholder="Autor"
               className={styles.inputForm}
               onChange={capturaAutor}
@@ -93,12 +87,10 @@ function QueroDoar() {
           <div className={styles.divForm}>
             <input
               type="text"
-              id="nome"
-              name="nome"
               placeholder="Link da Imagem"
               className={styles.inputForm}
               onChange={capturaImagem}
-              value={imagem}
+              value={imagem_url}
             />
           </div>
           <input
